@@ -18,8 +18,8 @@ const colors = ["tangerine", "magenta", "lilac", "daffodil"]
 const cohort = "LEARN 2023"
 // console.log(cohort.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer:9
+// b) Verify and explain:The string has 10 characters starting with the number 0.
 
 // --------------------2) What will this log?
 
@@ -27,7 +27,7 @@ const greeting = "Hello World!"
 // console.log(greeting[4])
 
 // a) Your answer:
-// b) Verify and explain:
+// b) Verify and explain: Not sure at all.
 
 // --------------------3) What will this log?
 
@@ -35,21 +35,21 @@ const languages = ["JavaScript", "Ruby", "Python", "C++"]
 const index = 1
 // console.log(languages[index])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: I would say 4
+// b) Verify and explain:What I do know is that this is an array with 4 strings. Ik' not sure what the answer is or how to get there. 
 
 // --------------------4) What will this log?
 
 const weekendDays = ["saturday", "sunday"]
 // console.log(weekendDays.toUpperCase())
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer:["SATURDAY", "SUNDAY"]
+// b) Verify and explain:toUpperCase makes everything in the array all upper case.
 
 // --------------------5) What will this log?
 
 const dataTypes = ["number", "string", "Boolean", "undefined"]
 // console.log(typeof dataTypes.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer:4
+// b) Verify and explain:It is logging each individual data type within the array.

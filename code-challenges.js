@@ -29,6 +29,12 @@ const padres1998WorldSeriesRuns = [6, 3, 5, 3]
 // Expected output: 9
 
 // Pseudo code:
+//I have to combine the arrays
+const combinedArray = padres1984WorldSeriesRuns.concat(padres1998WorldSeriesRuns);
+
+//get the length of the combined array
+const combinedArrayLength = combinedArray
+console.log(combinedArrayLength)
 
 // --------------------2) Create the code that will reverse the letters of a string using the test variable provided below.
 
@@ -36,6 +42,10 @@ const currentCohort = "LEARN 2023"
 // Expected output: "3202 NRAEL"
 
 // Pseudo code:
+//To reverse the string, I'm going to use the reverse function.
+currentCohort.reverse()
+// then I'm going to console.log the variable
+console.log(currentCohort)
 
 // --------------------3) Create the code that will log only the odd numbers from the array using the test variable provided below.
 
@@ -43,3 +53,10 @@ const stockExchange = [13, 34, -4, 42, 5, -5, 10, 27, 42, 10]
 // Expected output: 13 5 -5 27
 
 // Pseudo code:
+// create an if statement behind the const
+const stockExchange = [13, 34, -4, 42, 5, -5, 10, 27, 42, 10]
+if (num % 2 !== 0) {
+    console.log(num);
+  }
+// Use the logOddNumbers function
+logOddNumbers(stockExchange)
